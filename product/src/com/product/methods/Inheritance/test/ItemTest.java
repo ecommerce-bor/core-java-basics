@@ -1,7 +1,7 @@
 package com.product.methods.Inheritance.test;
 
-import com.product.Inheritance.Item;
-import com.product.Inheritance.SubCategory;
+import com.product.methods.Inheritance.Item;
+import com.product.methods.Inheritance.SubCategory;
 
 public class ItemTest {
 
