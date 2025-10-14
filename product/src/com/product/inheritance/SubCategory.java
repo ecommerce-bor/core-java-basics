@@ -1,4 +1,4 @@
-package com.product.methods.Inheritance;
+package com.product.inheritance;
 
 public class SubCategory {
 
