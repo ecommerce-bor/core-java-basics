@@ -3,7 +3,7 @@ package com.product.arrays;
 public class ArraysTest {
 
     public static void main(String[] args) {
-//        Integer a=10;
+        Integer a=10;
 //        System.out.println(a++);//10
 //        System.out.println(a++);//11
         //array start with index 0
@@ -15,9 +15,9 @@ public class ArraysTest {
         System.out.println(arr[i]);
         }
 
-        for(int i=0;i<=arr.length-1;i++){
-            System.out.println(arr[i]);
-        }
+//        for(int i=0;i<=arr.length-1;i++){
+//            System.out.println(arr[i]);
+//        }
 
 
 //        int length=arr.length;
