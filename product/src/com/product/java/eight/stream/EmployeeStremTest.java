@@ -1,6 +1,8 @@
 package com.product.java.eight.stream;
 
+import java.awt.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -53,7 +55,21 @@ public class EmployeeStremTest {
 //         System.out.println(count.getKey()+count.getValue());
 //     }
 
-        countEmployeeBasedOnDepartmentWithMethodRefrence.forEach((k, v)->System.out.println("departmentName"+k+"count:"+v));
+//        countEmployeeBasedOnDepartmentWithMethodRefrence.forEach((k, v)->System.out.println("departmentName"+k+"count:"+v));
+
+        //print employees name with asending order
+//        employeeList.stream().sorted(Comparator.comparing(Employee::getName))
+//                .forEach( System.out::println);
+
+        //print employees name with desending order
+//        employeeList.stream().sorted(Comparator.comparing(Employee::getName).reversed())
+//                .forEach( System.out::println);
+
+        //most experiene employee in organization
+        employeeList.stream().sorted(Comparator.comparing(Employee::getDateOfJoining)).findFirst()
+                .ifPresent(System.out::println);
+
+
 
 
 
